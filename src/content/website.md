@@ -1,94 +1,117 @@
 # Global
 ## en
-BrandName: Tributum
+BrandName: Tributum.ie
 Nav_Home: Home
-Nav_Services: Services
-Nav_About: About
+Nav_Services: Solutions
+Nav_Pricing: Pricing
+Nav_Resources: Resources
 Nav_Contact: Contact
-Footer_Rights: All rights reserved.
+Footer_Rights: All rights reserved. Tributum is a trading name of tributum.ie
 
 ## ro
-BrandName: Tributum
+BrandName: Tributum.ie
 Nav_Home: Acasă
-Nav_Services: Servicii
-Nav_About: Despre
+Nav_Services: Soluții
+Nav_Pricing: Tarife
+Nav_Resources: Resurse
 Nav_Contact: Contact
-Footer_Rights: Toate drepturile rezervate.
+Footer_Rights: Toate drepturile rezervate. Tributum este denumire comercială a tributum.ie
 
 # Hero
 ## en
-Title: Expert Accounting for Ireland's Future
-Subtitle: Comprehensive tax, revenue, and financial planning services tailored for your business growth.
-CTA_Primary: Our Services
-CTA_Secondary: Contact Us
+Title: Accountant + App
+Subtitle: Online accounting: complete services from €79 for Limited Companies or €39 for Sole Traders.
+CTA_Primary: See Pricing
+CTA_Secondary: Request a Call
 
 ## ro
-Title: Contabilitate Expertă pentru Viitorul Irlandei
-Subtitle: Servicii complete de taxe, venituri și planificare financiară, create pentru creșterea afacerii tale.
-CTA_Primary: Serviciile Noastre
-CTA_Secondary: Contactează-ne
+Title: Contabil + Aplicație
+Subtitle: Contabilitate online: servicii complete de la 79€ pentru LTD sau 39€ pentru Sole Trader.
+CTA_Primary: Vezi Tarifele
+CTA_Secondary: Vreau să fiu sunat
 
-# Services
+# Features
 ## en
-Title: Our Solutions
-Subtitle: Professional accounting services for every stage of your business.
-Service1_Title: Tax Returns
-Service1_Desc: Accurate and timely tax filing for individuals and corporations. ensuring compliance with Revenue.
-Service2_Title: End of Year
-Service2_Desc: Complete financial statements and reporting to close your financial year with confidence.
-Service3_Title: Revenue & VAT
-Service3_Desc: Expert management of VAT returns and revenue audits to keep your business safe.
-Service4_Title: Payroll
-Service4_Desc: Efficient payroll processing and PAYE management for your employees.
+Title: Complete Online Accounting
+Subtitle: Including dedicated accountant, intuitive app, payroll, invoicing, and Revenue compliance.
+Feat1_Title: Dedicated Accountant
+Feat1_Desc: You get an ACCA/CPA certified accountant, specialized in your industry. Always available to answer your questions.
+Feat2_Title: Modern App
+Feat2_Desc: You snap photos of documents, we handle the rest. Access invoicing, payroll, and reports anytime, anywhere.
+Feat3_Title: Payroll & PAYE
+Feat3_Desc: Complete payroll management, payslips, and Real-Time Reporting (PMR) to Revenue.
+Feat4_Title: Peace of Mind
+Feat4_Desc: Figures are accurate, returns are filed on time. Data stored securely in the Cloud.
 
 ## ro
-Title: Soluțiile Noastre
-Subtitle: Servicii de contabilitate profesionale pentru fiecare etapă a afacerii tale.
-Service1_Title: Declarații Fiscale
-Service1_Desc: Depunerea precisă și la timp a declarațiilor fiscale pentru persoane fizice și companii.
-Service2_Title: Închidere de An
-Service2_Desc: Situații financiare complete și raportare pentru a încheia anul financiar cu încredere.
-Service3_Title: TVA și Venituri
-Service3_Desc: Gestionarea expertă a declarațiilor de TVA și auditurilor pentru siguranța afacerii tale.
-Service4_Title: Salarizare
-Service4_Desc: Procesare eficientă a salariilor și gestionarea taxelor pentru angajații tăi.
+Title: Contabilitate Online Completă
+Subtitle: Inclusiv contabil dedicat, aplicație intuitivă, salarizare, facturare și conformitate cu Revenue.
+Feat1_Title: Contabil Dedicat
+Feat1_Desc: Primești un contabil certificat ACCA/CPA, specializat în domeniul tău. Disponibil oricând pentru întrebări.
+Feat2_Title: Aplicație Modernă
+Feat2_Desc: Tu pozezi documentele, noi ne ocupăm de restul. Acces la facturare, salarizare și rapoarte oricând.
+Feat3_Title: Salarizare & PAYE
+Feat3_Desc: Gestionare completă a salariilor, fluturași și Raportare în Timp Real către Revenue.
+Feat4_Title: Fără Griji
+Feat4_Desc: Cifrele sunt corecte, declarațiile sunt depuse la timp. Datele sunt stocate securizat în Cloud.
+
+# Process
+## en
+Title: Become a Client in 3 Steps
+Step1_Title: Register
+Step1_Desc: Create a user account in the Tributum app.
+Step2_Title: Choose Plan
+Step2_Desc: Select the subscription that fits your business needs.
+Step3_Title: Onboard
+Step3_Desc: Sign the contract online and meet your dedicated accountant.
+
+## ro
+Title: Devino Client în 3 Pași
+Step1_Title: Înregistrează-te
+Step1_Desc: Creează-ți un cont de utilizator în aplicația Tributum.
+Step2_Title: Alege Abonament
+Step2_Desc: Alege tipul de abonament potrivit nevoilor afacerii tale.
+Step3_Title: Start
+Step3_Desc: Semnează contractul online și cunoaște-ți contabilul dedicat.
 
 # About
 ## en
-Title: More Than Just Accounting
-Paragraph1: At Tributum, we believe in building lasting partnerships. Founded with a vision to simplify financial complexity, we help businesses navigate the intricate Irish tax system with ease and precision.
-Paragraph2: Our team consists of chartered accountants and tax advisors dedicated to minimizing your liabilities and maximizing your potential. We don't just crunch numbers; we provide strategic insights.
-Stat1: Years Experience
-Stat2: Happy Clients
-Stat3: Compliance Rate
-Stat4: Support
+Title: Why Tributum?
+Paragraph1: We revolutionize how entrepreneurs relate to accounting. Over 500 happy clients trust us with their filing.
+Paragraph2: "Tributum changed my life. Excellent communication, professional accountants, and it feels like talking to a friend." - Iosif Bujor, CEO.
+Stat1: Clients
+Stat2: Invoices Issued
+Stat3: Returns Filed
+Stat4: Satisfaction
 
 ## ro
-Title: Mai Mult Decât Contabilitate
-Paragraph1: La Tributum, credem în construirea de parteneriate de durată. Fondați cu viziunea de a simplifica complexitatea financiară, ajutăm afacerile să navigheze sistemul fiscal irlandez cu ușurință și precizie.
-Paragraph2: Echipa noastră este formată din contabili autorizați și consultanți fiscali dedicați minimizării taxelor și maximizării potențialului tău. Nu doar calculăm cifre; oferim perspective strategice.
-Stat1: Ani de Experiență
-Stat2: Clienți Mulțumiți
-Stat3: Rată Conformitate
-Stat4: Suport
+Title: De ce Tributum?
+Paragraph1: Revoluționăm modul în care antreprenorii se raportează la contabilitate. Peste 500 de clienți mulțumiți au încredere în noi.
+Paragraph2: "Tributum mi-a schimbat viața. Comunicare excelentă, contabili profesioniști și sentimentul că vorbești cu un prieten." - Iosif Bujor, CEO.
+Stat1: Clienți
+Stat2: Facturi Emise
+Stat3: Declarații
+Stat4: Satisfacție
 
 # Contact
 ## en
 Title: Get in Touch
-Subtitle: Ready to streamline your finances? Send us a message tailored to your needs.
+Subtitle: Have questions? Leave your details and we'll call you back.
 Label_Name: Full Name
 Label_Email: Email Address
-Label_Message: Message
+Label_Phone: Phone Number
+Label_Message: Message (Optional)
 Button_Send: Send Message
-Success_Message: Message sent successfully! We will get back to you soon.
-Error_Message: Something went wrong. Please try again or email us directly.
+Success_Message: Message sent! We'll be in touch.
+Error_Message: Something went wrong. Please try again.
 
 ## ro
 Title: Contactează-ne
-Subtitle: Ești gata să îți optimizezi finanțele? Trimite-ne un mesaj personalizat.
+Subtitle: Ai întrebări? Lasă-ne datele și te sunăm noi.
 Label_Name: Nume Complet
 Label_Email: Adresă Email
-Label_Message: Mesaj
+Label_Phone: Număr Telefon
+Label_Message: Mesaj (Opțional)
 Button_Send: Trimite Mesaj
-Success_Message: Mesaj trimis cu succes! Te vom contacta în curând.
-Error_Message: Ceva nu a mers bine. Te rugăm să încerci din nou sau să ne scrii direct.
+Success_Message: Mesaj trimis! Te vom contacta.
+Error_Message: Ceva nu a mers bine. Încearcă din nou.

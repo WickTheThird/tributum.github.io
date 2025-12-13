@@ -15,8 +15,8 @@ export const Navbar = ({ content, language, toggleLanguage, t }) => {
 
     const navLinks = [
         { key: 'Nav_Home', href: '#home' },
-        { key: 'Nav_Services', href: '#services' },
-        { key: 'Nav_About', href: '#about' }, // We might merge this or section it
+        { key: 'Nav_Services', href: '#features' }, // Mapped to Features section
+        { key: 'Nav_Pricing', href: '#process' }, // Mapped to Process for now, or new Pricing section
         { key: 'Nav_Contact', href: '#contact' },
     ];
 
