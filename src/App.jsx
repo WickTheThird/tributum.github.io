@@ -5,6 +5,7 @@ import { Hero } from './components/Hero';
 import { Services } from './components/Services';
 import { Process } from './components/Process';
 import { About } from './components/About';
+import { CallAction } from './components/CallAction';
 import { ContactForm } from './components/ContactForm';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Services t={t} />
         <Process t={t} />
         <About t={t} />
+        <CallAction t={t} />
 
         <ContactForm t={t} />
       </main>

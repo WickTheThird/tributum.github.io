@@ -49,9 +49,15 @@ export const Hero = ({ t }) => {
                         {t('Hero', 'Subtitle')}
                     </p>
                     <div className="flex flex-wrap gap-4">
-                        <Button href="#features" variant="primary" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 border-0 shadow-lg shadow-blue-900/20">
-                            {t('Hero', 'CTA_Primary')}
-                        </Button>
+                        <motion.div
+                            animate={{ boxShadow: ["0 0 0 rgba(79, 70, 229, 0)", "0 0 20px rgba(79, 70, 229, 0.4)", "0 0 0 rgba(79, 70, 229, 0)"] }}
+                            transition={{ duration: 2, repeat: Infinity }}
+                            className="rounded-xl"
+                        >
+                            <Button href="#features" variant="primary" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 border-0 shadow-lg shadow-blue-900/20">
+                                {t('Hero', 'CTA_Primary')}
+                            </Button>
+                        </motion.div>
                         <Button href="#contact" variant="secondary" className="border-slate-200 hover:bg-slate-50">
                             {t('Hero', 'CTA_Secondary')}
                         </Button>
