@@ -14,8 +14,14 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        brand: {
+          blue: '#3b82f6', // blue-500
+          purple: '#8b5cf6', // violet-500
+        }
+      },
       animation: {
-        'fade-in': 'fadeIn 0.7s ease-out forwards',
+        'fade-in': 'fadeIn 0.5s ease-out forwards',
         'slide-up': 'slideUp 0.7s ease-out forwards',
       },
       keyframes: {

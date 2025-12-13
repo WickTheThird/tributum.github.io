@@ -28,7 +28,7 @@ export const Services = ({ t }) => {
     return (
         <section id="features" className="py-32 bg-slate-50 relative overflow-hidden">
             {/* Background elements */}
-            <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-blue-100 rounded-full blur-[120px] opacity-20" />
+            <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-b from-blue-100 to-purple-100 rounded-full blur-[120px] opacity-30" />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
@@ -56,7 +56,7 @@ export const Services = ({ t }) => {
                             transition={{ delay: index * 0.1, duration: 0.5 }}
                             className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                         >
-                            <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 text-blue-600">
+                            <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 text-purple-600">
                                 <service.icon className="w-7 h-7" />
                             </div>
                             <h3 className="text-xl font-bold text-slate-900 mb-4">{t('Features', service.title)}</h3>

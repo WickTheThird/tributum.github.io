@@ -29,23 +29,23 @@ export const About = ({ t }) => {
                         transition={{ duration: 0.8 }}
                         className="relative"
                     >
-                        <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-slate-900 rounded-2xl rotate-3 opacity-20" />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-2xl rotate-3 opacity-20" />
                         <div className="glass p-8 rounded-2xl relative border border-white/50 shadow-xl">
                             <div className="grid grid-cols-2 gap-8">
                                 <div>
-                                    <div className="text-4xl font-bold text-blue-600 mb-2">10+</div>
+                                    <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">10+</div>
                                     <div className="text-sm font-medium text-slate-600">{t('About', 'Stat1')}</div>
                                 </div>
                                 <div>
-                                    <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+                                    <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">500+</div>
                                     <div className="text-sm font-medium text-slate-600">{t('About', 'Stat2')}</div>
                                 </div>
                                 <div>
-                                    <div className="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                                    <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">100%</div>
                                     <div className="text-sm font-medium text-slate-600">{t('About', 'Stat3')}</div>
                                 </div>
                                 <div>
-                                    <div className="text-4xl font-bold text-blue-600 mb-2">24/7</div>
+                                    <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2">24/7</div>
                                     <div className="text-sm font-medium text-slate-600">{t('About', 'Stat4')}</div>
                                 </div>
                             </div>
