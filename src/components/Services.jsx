@@ -28,7 +28,19 @@ export const Services = ({ t }) => {
     return (
         <section id="features" className="py-32 bg-slate-50 relative overflow-hidden">
             {/* Background elements */}
-            <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-b from-blue-100 to-purple-100 rounded-full blur-[120px] opacity-30" />
+            {/* Background elements */}
+            <motion.div
+                animate={{
+                    scale: [1, 1.1, 1],
+                    x: [0, -30, 0],
+                }}
+                transition={{
+                    duration: 8,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                }}
+                className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-b from-blue-100 to-purple-100 rounded-full blur-[120px] opacity-30 pointer-events-none"
+            />
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
