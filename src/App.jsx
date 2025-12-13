@@ -7,6 +7,7 @@ import { Process } from './components/Process';
 import { About } from './components/About';
 import { CallAction } from './components/CallAction';
 import { ContactForm } from './components/ContactForm';
+import { MouseBackground } from './components/ui/MouseBackground';
 
 function App() {
   const { content, language, toggleLanguage, t, loading } = useContent();
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 selection:bg-slate-900 selection:text-white">
+      <MouseBackground />
       <Navbar
         content={content}
         language={language}

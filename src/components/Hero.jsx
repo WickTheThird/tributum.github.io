@@ -6,8 +6,7 @@ export const Hero = ({ t }) => {
         <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
             {/* Background decorative elements */}
             {/* Background decorative elements */}
-            <div className="absolute top-0 right-0 w-3/4 h-full bg-gradient-to-bl from-purple-100 via-blue-50 to-transparent opacity-30 -z-10 blur-3xl animate-blob" />
-            <div className="absolute bottom-0 left-0 w-2/3 h-2/3 bg-gradient-to-tr from-blue-100 to-purple-100 rounded-full blur-[100px] opacity-30 -z-10 animate-blob animation-delay-2000" />
+            {/* Ambient background managed globally by MouseBackground */}
 
             <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 relative z-10">
                 <motion.div

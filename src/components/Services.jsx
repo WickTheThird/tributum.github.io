@@ -29,7 +29,7 @@ export const Services = ({ t }) => {
         <section id="features" className="py-32 bg-slate-50 relative overflow-hidden">
             {/* Background elements */}
             {/* Background elements */}
-            <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-b from-blue-100 to-purple-100 rounded-full blur-[120px] opacity-30 pointer-events-none animate-blob" />
+            {/* Global background used */}
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <motion.div
