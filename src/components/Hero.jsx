@@ -27,7 +27,7 @@ export const Hero = ({ t }) => {
                         <Button href="#features" variant="primary" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 border-0 shadow-lg shadow-blue-900/20">
                             {t('Hero', 'CTA_Primary')}
                         </Button>
-                        <Button href="#contact" variant="outline" className="border-slate-200 hover:bg-slate-50">
+                        <Button href="#contact" variant="secondary" className="border-slate-200 hover:bg-slate-50">
                             {t('Hero', 'CTA_Secondary')}
                         </Button>
                     </div>
