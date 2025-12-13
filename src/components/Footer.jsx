@@ -11,7 +11,7 @@ export const Footer = ({ t }) => {
                             Empowering businesses with precision accounting and strategic financial advice in Ireland.
                         </p>
                         <div className="flex gap-4">
-                            <a href="mailto:info@tributum.ie" className="hover:text-white transition-colors"><Mail className="w-5 h-5" /></a>
+                            <a href="mailto:Tributum@yahoo.com" className="hover:text-white transition-colors"><Mail className="w-5 h-5" /></a>
                             <a href="https://github.com/WickTheThird/tributum.github.io" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
                         </div>
                     </div>
