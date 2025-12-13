@@ -31,11 +31,16 @@ export const Hero = ({ t }) => {
                             {t('Hero', 'CTA_Secondary')}
                         </Button>
                     </div>
-                    <div className="mt-12 flex items-center gap-4 text-slate-500 text-sm font-medium">
+                    <div className="mt-12 flex flex-col gap-4 text-slate-500 text-sm font-medium">
                         <span>Download app:</span>
-                        <a href="#" className="opacity-70 hover:opacity-100 transition-opacity">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store" className="h-10" />
-                        </a>
+                        <div className="flex gap-4">
+                            <a href="https://apps.apple.com/ie/app/tributum/id1579508793" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" className="h-10" />
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.app.mbacc&hl=en_IE" target="_blank" rel="noopener noreferrer" className="opacity-70 hover:opacity-100 transition-opacity">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-10" />
+                            </a>
+                        </div>
                     </div>
                 </motion.div>
             </div>
