@@ -25,7 +25,7 @@ export const Navbar = ({ content, language, toggleLanguage, t }) => {
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#home" className="text-2xl font-bold tracking-tighter text-slate-900 flex items-center gap-2">
-                    <img src="/logo.svg" alt="Logo" className="w-8 h-8 rounded-lg" />
+                    <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Logo" className="w-8 h-8 rounded-lg" />
                     {t('Global', 'BrandName')}
                 </a>
 
