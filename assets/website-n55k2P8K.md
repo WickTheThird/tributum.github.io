@@ -91,6 +91,19 @@ Stat2: Facturi Emise
 Stat3: Declarații
 Stat4: Satisfacție
 
+# Apps
+## en
+Title: Your Business in Your Pocket
+Subtitle: Access your financial data anytime, anywhere. Download the Tributum app for iOS and Android.
+Button_Apple: Download on App Store
+Button_Google: Get it on Google Play
+
+## ro
+Title: Afacerea Ta în Buzunar
+Subtitle: Accesează datele financiare oricând, oriunde. Descarcă aplicația Tributum pentru iOS și Android.
+Button_Apple: Descarcă de pe App Store
+Button_Google: Disponibil pe Google Play
+
 # Contact
 ## en
 Title: Get in Touch
