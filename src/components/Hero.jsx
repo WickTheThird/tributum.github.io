@@ -6,32 +6,8 @@ export const Hero = ({ t }) => {
         <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
             {/* Background decorative elements */}
             {/* Background decorative elements */}
-            <motion.div
-                animate={{
-                    scale: [1, 1.2, 1],
-                    opacity: [0.3, 0.5, 0.3],
-                    rotate: [0, 45, 0]
-                }}
-                transition={{
-                    duration: 10,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}
-                className="absolute top-0 right-0 w-3/4 h-full bg-gradient-to-bl from-purple-100 via-blue-50 to-transparent opacity-30 -z-10 blur-3xl"
-            />
-            <motion.div
-                animate={{
-                    x: [0, 100, 0],
-                    y: [0, -50, 0],
-                    opacity: [0.3, 0.6, 0.3]
-                }}
-                transition={{
-                    duration: 15,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}
-                className="absolute bottom-0 left-0 w-2/3 h-2/3 bg-gradient-to-tr from-blue-100 to-purple-100 rounded-full blur-[120px] opacity-30 -z-10"
-            />
+            <div className="absolute top-0 right-0 w-3/4 h-full bg-gradient-to-bl from-purple-100 via-blue-50 to-transparent opacity-30 -z-10 blur-3xl animate-blob" />
+            <div className="absolute bottom-0 left-0 w-2/3 h-2/3 bg-gradient-to-tr from-blue-100 to-purple-100 rounded-full blur-[100px] opacity-30 -z-10 animate-blob animation-delay-2000" />
 
             <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 relative z-10">
                 <motion.div

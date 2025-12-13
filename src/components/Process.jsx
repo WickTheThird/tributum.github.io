@@ -22,18 +22,7 @@ const steps = [
 export const Process = ({ t }) => {
     return (
         <section id="process" className="py-24 bg-white relative overflow-hidden">
-            <motion.div
-                animate={{
-                    opacity: [0.3, 0.5, 0.3],
-                    scale: [1, 1.2, 1],
-                }}
-                transition={{
-                    duration: 12,
-                    repeat: Infinity,
-                    ease: "easeInOut"
-                }}
-                className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-purple-100 to-blue-50 rounded-full blur-[100px] opacity-30 pointer-events-none"
-            />
+            <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-purple-100 to-blue-50 rounded-full blur-[100px] opacity-30 pointer-events-none animate-blob" />
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
                     <motion.h2
