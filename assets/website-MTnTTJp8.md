@@ -3,7 +3,6 @@
 BrandName: Tributum.ie
 Nav_Home: Home
 Nav_Services: Solutions
-Nav_Pricing: Pricing
 Nav_Resources: Resources
 Nav_Contact: Contact
 Footer_Rights: All rights reserved. Tributum is a trading name of tributum.ie
@@ -12,7 +11,6 @@ Footer_Rights: All rights reserved. Tributum is a trading name of tributum.ie
 BrandName: Tributum.ie
 Nav_Home: Acasă
 Nav_Services: Soluții
-Nav_Pricing: Tarife
 Nav_Resources: Resurse
 Nav_Contact: Contact
 Footer_Rights: Toate drepturile rezervate. Tributum este denumire comercială a tributum.ie
@@ -20,14 +18,14 @@ Footer_Rights: Toate drepturile rezervate. Tributum este denumire comercială a 
 # Hero
 ## en
 Title: Accountant + App
-Subtitle: Online accounting: complete services from €79 for Limited Companies or €39 for Sole Traders.
-CTA_Primary: See Pricing
+Subtitle: Online accounting: complete services for Limited Companies and Sole Traders.
+CTA_Primary: Our Solutions
 CTA_Secondary: Request a Call
 
 ## ro
 Title: Contabil + Aplicație
-Subtitle: Contabilitate online: servicii complete de la 79€ pentru LTD sau 39€ pentru Sole Trader.
-CTA_Primary: Vezi Tarifele
+Subtitle: Contabilitate online: servicii complete pentru LTD și Sole Trader.
+CTA_Primary: Soluțiile Noastre
 CTA_Secondary: Vreau să fiu sunat
 
 # Features
